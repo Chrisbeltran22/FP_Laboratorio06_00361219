@@ -1,0 +1,16 @@
+Ejercicio 3 
+
+acum = 0
+opcion = input("¿Quiere meter un numero? (S/N)")
+
+while opcion != "N":
+    p= int(input("¿Cual es su numero?"))
+    p1 = p % 2
+    p2 = (2*p)+1
+    if p1 == 0:
+        print("El numero par ingresado fue: " + str(p))
+        
+    elif p2 != 0:
+        print("Este no es un numero par, ingrese otro")
+    print("¿Desea escribir otro numero par? (S/N)")
+    opcion = input()

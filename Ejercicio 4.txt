@@ -1,0 +1,4 @@
+Ejercicio 4 
+
+x=randrange(1,10)
+print(x)
