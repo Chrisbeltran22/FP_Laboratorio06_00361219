@@ -1,0 +1,9 @@
+Ejercicio 9 
+
+print("Ingrese un numero a operar")
+numero = int(input())
+print("La tabla del dato ingresado es: ")
+if numero <= 100:
+    for i in range(10,101):
+        dato = numero*i
+        print(str(dato))

@@ -1,0 +1,26 @@
+Ejercicio 10 
+
+print("Gracias por hacer uso de nuestro convertidor de temperaturas")
+print("Por favor seleccione que conversion desea realizar:\n\t1- Fahrenheit a Celsius\n\t2- Celsius a Fahrenheit\n\t3- Kelvin a Celsius")
+opcionMenu = int(input())
+    
+if opcionMenu==1:
+    print("Conversor de Fahrenheit a Celsius")
+    dato = int(input("Digite el valor de Fahrenheit que desea convertir a Celsius: "))
+    Celsius = (dato-32)* 5/9
+    print("La temperatura en Celsius es de " + str(Celsius) + " °C")
+
+elif opcionMenu==2:
+    print("Conversor de Celsius a Fahrenheit")
+    dato2 = int(input("Digite el valor de Celsius que desea convertir a Fahrenheit: "))
+    Fahrenheit = (dato2 * 9/5)+ 32
+    print("La temperatura en Fahrenheit es de " + str(Fahrenheit) + " °F")
+
+elif opcionMenu==3:
+    print("Conversor de Kelvin a Celsius")
+    dato3 = int(input("Digite el valor de Celsius que desea convertir a Kelvin: "))
+    Celsius2 = (dato3 - 273.15)
+    print("La temperatura en Celsius es de " + str(Celsius2) + " °C")
+    
+else:
+    print("Por favor selecciona una de las opciones del menú\nFinalizando proceso...")
