@@ -1,0 +1,16 @@
+Ejercicio 5 
+
+print("Seleccione el proceso que desea realizar\nDeposito (D)\nRetiro (R)")
+opcion = input()
+
+if opcion == "R":
+    print("Dijite cantidad a retirar: ")
+    retiro = int(input())
+    if retiro <= 1000:
+        print("Su nuevo saldo bancario es: $" + str(1000-retiro))
+    else:
+        print("No puede realizar un retiro mayor a $1000")
+else:
+    print("Dijite cantidad a depositar: ")
+    deposito = int(input())
+    print("Su nuevo saldo bancario es: $" + str(1000+deposito))
