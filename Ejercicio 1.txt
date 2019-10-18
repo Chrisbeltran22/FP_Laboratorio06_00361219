@@ -1,0 +1,15 @@
+Ejercicio 1
+
+v1= int(input())
+v2= int(input())
+v3= int(input())
+if   v1 > v2 > v3:
+    print("En las tres peliculas debe pagar $" + str(v2 + v3))
+elif v2 > v3 > v1:
+    print("En las tres peliculas debe pagar $" + str(v3 + v1))
+elif v3 > v1 > v2:
+    print("En las tres peliculas debe pagar $" + str(v1 + v2))
+elif v2 > v1 > v3:
+    print("En las tres peliculas debe pagar $" + str(v1 + v3))
+elif v3 > v2 > v1:
+    print("En las tres peliculas debe pagar $" + str(v2 + v1))
